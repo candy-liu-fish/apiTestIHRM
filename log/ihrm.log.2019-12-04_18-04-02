@@ -1,0 +1,2 @@
+2019-12-04 18:04:02,381INFO[root][__init__.py(<module>:7)]- test
+2019-12-04 18:04:02,857INFO[root][test_ihrm_login.py(test08_less_params:80)]- 登录接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}

@@ -1,0 +1,16 @@
+2019-12-06 12:17:29,596INFO[root][__init__.py(<module>:7)]- test
+2019-12-06 12:17:30,217INFO[root][test_ihrm_login.py(test01_login_success:27)]- 登录接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '8eed9f7e-6b9a-4650-8110-2c3301b08617'}
+2019-12-06 12:17:30,218INFO[root][test_ihrm_login.py(test01_login_success:43)]- 保存的登录的请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer 8eed9f7e-6b9a-4650-8110-2c3301b08617'}
+2019-12-06 12:17:30,308INFO[root][test_ihrm_login.py(test02_login_failure:49)]- 登录接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:17:30,398INFO[root][test_ihrm_login.py(test03_password_error:55)]- 登录接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:17:30,480INFO[root][test_ihrm_login.py(test04_none_params:61)]- 登录接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 12:17:30,568INFO[root][test_ihrm_login.py(test05_mobile_none:68)]- 登录接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b79a2553-4be9-440f-9bfe-036b4ae11fc3'}
+2019-12-06 12:17:30,660INFO[root][test_ihrm_login.py(test06_password_none:75)]- 登录接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:17:30,746INFO[root][test_ihrm_login.py(test07_more_params:82)]- 登录接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a772ad8a-3595-4e5c-b5c0-392e4aeb1697'}
+2019-12-06 12:17:30,835INFO[root][test_ihrm_login.py(test08_less_params:89)]- 登录接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:17:30,926INFO[root][test_ihrm_emp.py(test01_add_emp:28)]- 调用添加员工接口返回结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202804227797504000'}}
+2019-12-06 12:17:30,927INFO[root][test_ihrm_emp.py(test01_add_emp:38)]- 保存到全局变量中的员工id为：1202804227797504000
+2019-12-06 12:17:31,016INFO[root][test_ihrm_emp.py(test02_query_emp:44)]- 查询员工得到的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202804227797504000', 'mobile': '13312345644', 'username': '奇异博士17', 'password': '72554468326597cacd2f0f3e72da3676', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-11-01T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': '123321', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-01-30T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 12:17:31,110INFO[root][test_ihrm_emp.py(test03_modify_emp:51)]- 修改员工得到的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202804227797504000'}}
+2019-12-06 12:17:31,312INFO[root][test_ihrm_emp.py(test03_modify_emp:75)]- ------查询数据库中员工id为1202804227797504000的username是：黑寡妇3
+2019-12-06 12:17:31,408INFO[root][test_ihrm_emp.py(test04_delete_emp:80)]- 删除之后返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

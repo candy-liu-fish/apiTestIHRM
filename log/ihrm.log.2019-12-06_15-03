@@ -1,0 +1,6 @@
+2019-12-06 15:03:32,491INFO[root][__init__.py(<module>:7)]- test
+2019-12-06 15:03:33,174INFO[root][test_ihrm_login_parameterized.py(test01_login_success:29)]- 登录接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '07a42fdc-16ff-4994-b9e1-b24ce7fa59e1'}
+2019-12-06 15:03:33,270INFO[root][test_ihrm_login_parameterized.py(test01_login_success:29)]- 登录接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 15:03:33,357INFO[root][test_ihrm_login_parameterized.py(test01_login_success:29)]- 登录接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 15:03:33,444INFO[root][test_ihrm_login_parameterized.py(test01_login_success:29)]- 登录接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '54bbc7e1-7bb9-42ad-a2cd-b7f9fff8e15e'}
+2019-12-06 15:03:33,532INFO[root][test_ihrm_login_parameterized.py(test01_login_success:29)]- 登录接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
